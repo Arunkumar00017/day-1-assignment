@@ -5,7 +5,7 @@ def leap_year(year):
         return False
 
 
-year = int(input())
+year = int(input("Enter the Year"))
 if leap_year(year):
     print(f"{year} is a leap year.")
 else:
